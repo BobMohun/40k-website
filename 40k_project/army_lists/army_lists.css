@@ -1,0 +1,23 @@
+
+
+* {
+    color: darkgreen;
+    border: 2px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: darkslategray;
+}
+   
+h2 {
+    color: darkslategray;
+}
+
+a {
+    color: blue;
+}
+
+li {
+    color: black   
+}
