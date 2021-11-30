@@ -1,21 +1,41 @@
-h1 {
-    color: darkslategray;
-}
-
-* {
+  *, *::before, *::after {
+    box-sizing: inherit;
     color: darkgreen;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    border: 2px red;
+    padding: 30px;
+  }
+  
+  html {
+    display: block;
+    box-sizing: border-box;    
+    border: 2px solid black;
+    border: none;
+  }
+
+ body {
+    background: lightgray;
+    
+} 
+  h1 {
+    color: darkslategray;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid  red;
+}
+
+  h3 {
+    border: 2px double purple;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 a {
     color: blue;
+    padding-left: 0px;
 }
 
-html {
-    box-sizing: border-box;
-  }
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+ul {
+    display: inline;
+}
+
